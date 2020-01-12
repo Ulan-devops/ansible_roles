@@ -1,1 +1,5 @@
-helo
+---
+- name: Something
+  hosts: localhost
+  roles: 
+    - { role: wordpress }
